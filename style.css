@@ -1,0 +1,624 @@
+body{
+    background-color: black;
+    margin:0;
+    padding:0;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+*
+{
+    box-sizing:border-box;
+}
+
+/* starting of first part */
+.head{
+    position: relative;
+    top:30px;
+}
+
+.innerhead
+{
+    display:flex;
+  
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.iconify
+{
+   margin-left:40px;
+    width:150px;
+    height:100px;
+  z-index: 15;
+  margin-top:-30px;
+  /* position:absolute ; */
+   
+
+}
+.navbar
+{
+    margin-right:30px;
+    margin-left:auto;
+    z-index: 15;
+    margin-top:-30px;
+    /* position: absolute; */
+}
+.languageselector
+{
+    text-decoration: none;
+    color:white;
+    border:2px solid white;
+    padding:10px 20px 10px 20px;
+    margin-right:60px;
+    
+   
+
+    
+}
+.languageselector span::after{
+    content: "ᐁ";
+}
+
+.signnin
+{
+    text-decoration: none;
+    color:white;
+    border:1px ;
+    padding:10px 20px 10px 20px;
+    margin-right:30px;
+    background-color: red; 
+      
+}
+
+
+
+
+.backgrndimg
+{
+    height:100%; 
+    margin-top:-80px;
+
+   
+}
+
+.backgrndimg img
+{
+    width:100%;
+    height:auto;
+    margin-top:-100px;
+    opacity:0.6;
+  
+
+}
+.innertext
+{
+    position:absolute ;
+    top:80px; 
+    padding:50px 5%; 
+    font-size: 1.65rem;
+     margin-bottom: 100px;
+    color: #fff;
+    z-index:15;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-left: 250px;
+    margin-right: auto;
+    text-align: center;
+
+}
+.subheading
+{
+font-size:1.65rem;
+margin-top:-15px;
+font-weight: normal;
+}
+.veryinner
+{
+    font-size:20px;
+   
+}
+.space
+{
+    position:absolute ;
+    margin-top:20px;
+    height:70px; 
+    width:450px;
+    margin-left:-50px;
+}
+.btn
+{
+    background-color:red;
+    color:white;
+    text-align: center;
+    height:70px; 
+    width:170px;
+  font-weight: 400;
+  letter-spacing: .1px;
+  padding: .35rem 0;
+  font-size:23px;
+  margin-top:20px;
+  margin-left:400px;
+  
+}
+
+hr{
+    border: 8px solid #222;
+    margin-top:-4px;
+}
+
+/* ending of first part */
+
+/* starting of second part */
+.secondcontainer
+{
+    display:flex;
+    /* justify-content: space-around; */
+    flex-wrap:wrap;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+    /* margin-top: -5px; */
+}
+.first
+{
+    flex:50%;
+  
+    height:auto;
+    padding:80px;
+
+    
+}
+.first h1{
+    color:white;
+    font-size:45px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;   
+    text-align: center ;
+}
+.para h2
+{
+    color:white;
+    font-size:30px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;   
+    text-align: center ;
+    font-weight: normal;
+}
+
+.second{
+flex:50%;
+
+height:auto;
+
+}
+
+.second {
+    height:450px;
+    width:100px;
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png") no-repeat top left transparent;
+  /* margin-top:-10px; */
+  margin-bottom: 30px;
+  position: relative;
+
+  
+ 
+
+}
+
+.second video {
+    position: absolute;
+    top: 30px; /* Adjust top position */
+    left:50px; /* Adjust left position */
+    z-index: -5;
+}
+/* .second img{
+    height:90%;
+    width:80%;
+} */
+
+
+/* end of second part */
+
+/* starting of third part */
+.thirdcontainer
+{
+    display:flex;
+    /* justify-content: space-around; */
+    flex-wrap:wrap;
+height: auto;
+width: 100%;
+padding-bottom: 30px;
+    /* margin-top: -5px; */
+}
+.third
+{
+    flex:50%;
+ 
+    height:auto;
+    padding:80px;
+    /* margin-left:-100px; */
+
+    
+}
+.third h1{
+    color:white;
+    font-size:45px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;   
+    text-align: center ;
+}
+.para1 h2
+{
+    color:white;
+    font-size:30px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;   
+    text-align: center ;
+    font-weight: normal;
+}
+
+.fourth{
+flex:50%;
+
+height:auto;
+
+}
+.fourth img{
+    height:90%;
+    width:80%;
+  
+
+}
+
+
+/* ending of third part */
+
+/* starting of fourth part */
+
+.fourthcontainer
+{
+    display:flex;
+    /* justify-content: space-around; */
+    flex-wrap:wrap;
+height: auto;
+width: 100%;
+/* position:absolute; */
+padding-bottom: 30px;
+
+}
+.fifth
+{
+    flex:50%;
+ 
+    height:auto;
+    padding:80px;
+    /* margin-left:-100px; */
+
+    
+}
+.fifth h1{
+    color:white;
+    font-size:45px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;   
+    text-align: center ;
+}
+.para2 h2
+{
+    color:white;
+    font-size:30px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;   
+    text-align: center ;
+    font-weight: normal;
+}
+
+.sixth{
+flex:50%;
+height:auto;
+
+}
+.sixth {
+    height:380px;
+    width:330px;
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png") no-repeat top left transparent;
+  margin-top:10px;
+  position: relative;
+ 
+
+}
+
+.sixth video {
+    position: absolute;
+    top: 30px; /* Adjust top position */
+    left: -10px; /* Adjust left position */
+    z-index: -5;
+}
+/* ending of fourth part */
+
+/* starting of fifth part */
+
+.seven
+
+{
+    display:flex;
+    height:auto;
+    /* align-items:center;
+    flex-direction: column-reverse; */
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.seven h1
+{
+    color:white;
+    text-align: center;
+    margin-top:30px;
+    font-size:50px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.faq-ls{
+  
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.faq-ls-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width:60%;
+    margin-bottom: 15px;
+    /* border: 1px solid white; */
+    background: #303030;
+    
+}
+.faq-ls-item:hover
+{
+    box-shadow:2px 2px 2px 2px   whitesmoke;
+}
+
+.faq-ls-item h3{
+    color: white;
+    font-size: 25px;
+    font-weight:400;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+
+/* ending of fifth part */
+.foot{
+    width:100%;
+    height:auto;
+    padding-bottom:80px;
+    margin-top: 50px;
+    
+}
+.foot p{
+    font-size:20px;
+    margin-left: 12%;
+}
+
+.commonfooter
+{
+    display:flex;
+    width:80%;
+    height: auto;
+    margin-left:10%;
+    margin-right:auto;
+    margin-top:30px;
+    flex-wrap:wrap;
+    
+    /* margin-top:100px; */
+}
+.commonfooter .div-1
+{
+    flex:10%;
+    min-height:200px;
+    
+    
+
+}
+.commonfooter .div-2
+{
+    flex:10%;
+    min-height:200px;
+   
+}
+.commonfooter .div-3
+{
+    flex:10%;
+    min-height:200px;
+   
+}
+.commonfooter .div-4
+{
+    flex:10%;
+    min-height:200px;
+    /* background-color:yellow; */
+    justify-self: stretch;
+}
+.firstdiv
+{
+    list-style: none;
+   color: #757575;
+   line-height: 1.5;
+   font-weight:normal;
+   font-size:15px;
+}
+.firstdiv li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* This part is for media query */
+
+@media only screen and (max-width:500px)
+{
+    .iconify
+    {
+        margin-left:10px;
+        width:80px;
+        height:100px;
+    }
+    .signnin
+    {
+        margin-right:20px;
+       padding:2px;
+ 
+
+      
+    }
+    .languageselector
+    {
+        margin-right: 10px;
+        padding:2px;
+       
+    }
+    .backgrndimg img
+    {
+        height:600px;
+        margin-top:-90px;
+    }
+    .space
+    {
+        margin-left:-75px;
+        width:350px;
+        height:50px;
+        margin-top:0;
+    }
+    .btn{
+        height:50px;
+        margin-left:30px;
+        margin-top:55px;
+        
+
+    }
+    .innertext
+    {
+        margin-left: 0px;
+        font-size:14px;
+
+
+    }
+    .subheading
+    {
+        font-size:21px;
+    }
+    .veryinner
+    {
+        font-size: 18px;
+    }
+    .secondcontainer
+    {
+        display: block;
+    }
+    .first{
+        padding:0px;
+    }
+    .first h1
+    {
+        font-size: 25px;
+       
+
+    }
+    .para h2{
+       font-size:20px;
+    }
+    .second img{
+        height:90%;
+        width:80%;
+        
+        margin-left: 30px;
+    }
+    
+    .thirdcontainer
+    {
+        display: block;
+    }
+    .third{
+        padding:0px;
+        margin-bottom:100px;
+    }
+    .third h1
+    {
+        font-size: 22px;
+    
+    }
+    .para1 h2{
+       font-size:17px;
+    }
+    .fourth img{
+        height:90%;
+        width:80%;
+        
+        margin-left: 30px;
+    }
+    .fourthcontainer
+    {
+        display: block;
+    }
+    .fifth{
+        padding:0px;
+       
+    }
+    .fifth h1
+    {
+        font-size: 25px;
+        
+
+    }
+    .para2 h2{
+       font-size:20px;
+    }
+  
+    
+        .second
+        {
+            height:250px;
+            width:100%;
+            background-size:cover;
+        }
+        .second video
+        {
+            width:90%;
+           
+        }
+    .sixth{
+        height:300px;
+        width:100%;
+        margin-top:10px;
+        background-size: cover;
+        overflow: hidden;
+        background-position:top ;
+
+    }
+    .sixth video
+    {
+        width: 65%;
+        height:80%;
+        top:-30px;
+        left:70px;
+    }
+    .seven h1
+    {
+        font-size: 25px;
+    }
+    .faq-ls-item
+    {
+        width:100%;
+        padding:2px 10px;
+        
+    }
+    .faq-ls-item h3
+    {
+        font-size: 18px;
+    }
+
+}
